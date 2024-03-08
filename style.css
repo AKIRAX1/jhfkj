@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+header{
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+header nav ul li a:hover{
+    color: #000;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+main{
+    padding: 40px;
+}
+
+section{
+    padding: 40px 0;
+}
+
+section h2{
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: 1.6rem;
+    line-height: 2.4;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.service h3{
+    margin-right: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.service ul{
+    list-style: none;
+}
+
+.service ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.button:hover{
+    background-color: #000;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contact a.icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.contact a.icon:hover{
+    background-color: #000;
+}
+
+footer{
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+footer p{
+    font-size: 1.6rem;
+}

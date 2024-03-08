@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKIRA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .about {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about h2 {
+            color: #333;
+        }
+        .about p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AKIRA</h1>
+        <p>Welcome to AKIRA website</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="about">
+        <h2>About Us</h2>
+        <p id="aboutText">I am a student at FSR, teaching my friends lessons better than our teachers. At AKIRA, we believe in peer learning and the power of students teaching students. We strive to create an environment where learning is fun, interactive, and effective.</p>
+        <button onclick="changeText()">Change Text</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 AKIRA. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function changeText() {
+            document.getElementById("aboutText").innerHTML = "Welcome to AKIRA website! We are a group of enthusiastic learners at FSR, empowering each other through peer teaching. Join us in our journey of collaborative learning.";
+        }
+    </script>
+</body>
+</html>
